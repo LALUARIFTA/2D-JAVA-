@@ -41,16 +41,19 @@ public class praktikum12 extends Frame implements Runnable {
         setupMenuBar();
         setFont(new Font("default", Font.BOLD, 18));
         Toolkit toolkit = getToolkit();
-        frames = new Image[8];
+        frames = new Image[11];
         // objek yang akan ditampilkan
-        frames[0] = toolkit.getImage("stickman1.jpg");
-        frames[1] = toolkit.getImage("stickman2.jpg");
-        frames[2] = toolkit.getImage("stickman3.jpg");
-        frames[3] = toolkit.getImage("stickman4.jpg");
-        frames[4] = toolkit.getImage("stickman5.jpg");
-        frames[5] = toolkit.getImage("stickman6.jpg");
-        frames[6] = toolkit.getImage("stickman7.jpg");
-        frames[7] = toolkit.getImage("stickman8.jpg");
+        frames[0] = toolkit.getImage("C:\\Users\\gawah\\OneDrive\\Pictures\\Documents\\NetBeansProjects\\GrafikaKomp\\src\\Image\\stickman1.jpg");
+        frames[1] = toolkit.getImage("C:\\Users\\gawah\\OneDrive\\Pictures\\Documents\\NetBeansProjects\\GrafikaKomp\\src\\Image\\stickman2.jpg");
+        frames[2] = toolkit.getImage("C:\\Users\\gawah\\OneDrive\\Pictures\\Documents\\NetBeansProjects\\GrafikaKomp\\src\\Image\\stickman3.jpg");
+        frames[3] = toolkit.getImage("C:\\Users\\gawah\\OneDrive\\Pictures\\Documents\\NetBeansProjects\\GrafikaKomp\\src\\Image\\stickman4.jpg");
+        frames[4] = toolkit.getImage("C:\\Users\\gawah\\OneDrive\\Pictures\\Documents\\NetBeansProjects\\GrafikaKomp\\src\\Image\\stickman5.jpg");
+        frames[5] = toolkit.getImage("C:\\Users\\gawah\\OneDrive\\Pictures\\Documents\\NetBeansProjects\\GrafikaKomp\\src\\Image\\stickman6.jpg");
+        frames[6] = toolkit.getImage("C:\\Users\\gawah\\OneDrive\\Pictures\\Documents\\NetBeansProjects\\GrafikaKomp\\src\\Image\\stickman7.jpg");
+        frames[7] = toolkit.getImage("C:\\Users\\gawah\\OneDrive\\Pictures\\Documents\\NetBeansProjects\\GrafikaKomp\\src\\Image\\stickman8.jpg");
+        frames[8] = toolkit.getImage("C:\\Users\\gawah\\OneDrive\\Pictures\\Documents\\NetBeansProjects\\GrafikaKomp\\src\\Image\\stickman1.jpg");
+        frames[9] = toolkit.getImage("C:\\Users\\gawah\\OneDrive\\Pictures\\Documents\\NetBeansProjects\\GrafikaKomp\\src\\Image\\stickman2.jpg");
+        frames[10] = toolkit.getImage("C:\\Users\\gawah\\OneDrive\\Pictures\\Documents\\NetBeansProjects\\GrafikaKomp\\src\\Image\\stickman1.jpg");
 
         numFrames = frames.length;
     }
