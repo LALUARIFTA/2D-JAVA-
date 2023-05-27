@@ -147,6 +147,8 @@ public class pep9 extends JFrame {
 
     }
 
+
+
     public void paint(Graphics g) {
 
         kulit(g);
